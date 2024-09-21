@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #CF64D8 0%, #812B9D 100%);
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.header, .footer {
+    background: linear-gradient(180deg, #CF64D8 0%, #812B9D 100%);
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.btn-comprar {
+    background-color: #E91E63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.video-section {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.video-placeholder {
+    margin-bottom: 20px;
+}
+
+.curso-info, .feedback, .market-info {
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.curso-info h2 {
+    margin-bottom: 10px;
+}
+
+.curso-info p {
+    font-size: 1.1rem;
+}
+
+.certificado h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #E91E63;
+}
+
+.market-info {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.market-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.market-stats div {
+    text-align: center;
+}
+
+.market-stats h3 {
+    font-size: 2rem;
+    color: #E91E63;
+}
+
+footer {
+    padding: 20px;
+}
